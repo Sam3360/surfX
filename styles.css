@@ -1,0 +1,42 @@
+body {
+    background-color: pink;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+img:first-of-type {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+h1 {
+    color: rgb(0, 88, 88);
+    text-align: center;
+    clear: left;
+}
+
+a {
+    color: blue;
+    font-size: 32px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+img:not(:first-of-type) {
+    width: 80px;
+    height: auto;
+    display: inline-block;
+}
+
+p {
+    background-color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
